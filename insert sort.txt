@@ -1,4 +1,3 @@
-%Сортировка вставкками
 function A=insert_sort(A)
 for i=2:1:numel(A)
 x=A(i);
