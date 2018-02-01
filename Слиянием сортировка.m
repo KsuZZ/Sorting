@@ -1,4 +1,4 @@
-%сортировка слиянием 1
+% 1
 function A = merge_sort(A)
   if length(A) > 1
     A1 = A(1: fix(length(A) / 2));
@@ -11,7 +11,7 @@ function A = merge_sort(A)
 end
 end
 /////////////////////////////////////////////////
-%сортировка слиянием 2
+% 2
 function C = merge(A,B)
 set(0,'RecursionLimit',20100)
     if length(A) == 0
