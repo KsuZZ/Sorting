@@ -1,4 +1,4 @@
-% Пирамида1
+% 1
 function A=Heapsort(A)
 %global A
 n=length(A);
@@ -11,13 +11,12 @@ for i=n:-1:2
 end
 end
 ////////////////////////////////////////////////
-% Пирамида2
+% 2
 function A=HeapFy (A, i, heap_size)
 % global heap_size
     L=left(i);
 	R=right(i);
  if L<=heap_size && A(L)>A(i)  
-% largest-наибольшее
     largest=L;
 else
     largest=i;
@@ -31,7 +30,7 @@ A=HeapFy(A, largest, heap_size);
 end
 end
 ////////////////////////////////////////////////
-% Пирамида3
+% 3
 function A=buildHeap(A)
 % global A
 n=length(A);
