@@ -1,4 +1,3 @@
-%пузырьковый метод сортировки
 function A=puzir(A)
 n=length(A);
 t0=0;
